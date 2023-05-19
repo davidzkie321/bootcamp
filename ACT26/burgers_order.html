@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.icon-icons.com/icons2/619/PNG/64/church-black-silhouette-with-a-cross-on-top_icon-icons.com_56737.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Bear Burger's - Order</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="restaurant_logo.png" alt="restaurant's logo" width="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html" id="home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="burgers_order.html" id="order"
+                >Order</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" id="shop">Shop </a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row my-5">
+        <div class="row col-lg-6">
+          <h1 class="display-1 mt-5">Order Here!</h1>
+        </div>
+        <div class="row table">
+          <table class="col-lg-7">
+            <thead>
+              <tr id="i_in_p">
+                <th>Icons</th>
+                <th>Item Name</th>
+                <th>Price</th>
+              </tr>
+              <tr class="text-center">
+                <th colspan="3" class="meals_drinks">Meals</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="burger">
+                <td class="meals">
+                  <img src="burger.png" alt="burger" height="50px" />
+                </td>
+                <td>Burger</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr id="fried_chicken">
+                <td class="meals">
+                  <img
+                    src="fried_chicken.png"
+                    alt="fried chicken"
+                    height="50px"
+                  />
+                </td>
+                <td>Fried Chicken</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr id="spaghetti">
+                <td class="meals">
+                  <img src="spaghetti.png" alt="spaghetti" height="50px" />
+                </td>
+                <td>Spaghetti</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr id="pizza">
+                <td class="meals">
+                  <img src="pizza.png" alt="pizza" height="50px" />
+                </td>
+                <td>Pizza</td>
+                <td>₱150.00</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr class="text-center">
+                <th colspan="3" class="meals_drinks">Drinks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="coke">
+                <td class="drinks">
+                  <img src="coke.png" alt="coke" height="50px" />
+                </td>
+                <td>Coke</td>
+                <td>₱20.00</td>
+              </tr>
+              <tr id="sprite">
+                <td class="drinks">
+                  <img src="sprite.png" alt="sprite" height="50px" />
+                </td>
+                <td>Sprite</td>
+                <td>₱20.00</td>
+              </tr>
+              <tr id="sarsi">
+                <td class="drinks">
+                  <img src="sarsi.png" alt="sarsi" height="50px" />
+                </td>
+                <td>Sarsi</td>
+                <td>₱20.00</td>
+              </tr>
+              <tr>
+                <td colspan="2" rowspan="2" id="all_items">
+                  All items are subject to tax. No refunds, all items are not
+                  transferrable.
+                </td>
+                <td id="extra_rice">Extra Rice - ₱20.00</td>
+              </tr>
+              <tr>
+                <td id="condiments">Condiments - ₱20.00</td>
+              </tr>
+            </tbody>
+          </table>
+          <img
+            src="basil-sauce.png"
+            alt="basil sauce"
+            class="img-fluid col-lg-5 d-none d-lg-block"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- I'm having difficulty finding out why the background is not entirely colored in the survey section -->
+    <div style="background-color: black">
+      <div class="container">
+        <div class="row mt-5 text-white">
+          <div class="mt-5">
+            <h1 class="display-4" id="tell_us">Tell Us What You Think!</h1>
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="vertical_burger.jpg"
+              alt="burger parts"
+              class="img-fluid"
+            />
+          </div>
+          <form class="col-lg-6 form-group mb-5">
+            <label>Name (optional):</label>
+            <input type="text" class="form-control" />
+            <label>Province (optional):</label>
+            <input type="text" class="form-control mb-4" />
+            <label>How many times have you went to our restaurant?</label><br />
+            <input type="radio" name="times" />This is the very first time
+            <br />
+            <input type="radio" name="times" />Second time <br />
+            <input type="radio" name="times" class="mb-4" />Third time or more
+            <br />
+            <label>How would you rate the food</label><br />
+            <input type="radio" name="times_star" />⭐
+            <input type="radio" name="times_star" />⭐⭐
+            <input type="radio" name="times_star" />⭐⭐⭐
+            <input type="radio" name="times_star" />⭐⭐⭐⭐
+            <input type="radio" name="times_star" class="mb-4" />⭐⭐⭐⭐
+            <label>How would you rate the services</label><br />
+            <input type="radio" name="times_star1" />⭐
+            <input type="radio" name="times_star1" />⭐⭐
+            <input type="radio" name="times_star1" />⭐⭐⭐
+            <input type="radio" name="times_star1" />⭐⭐⭐⭐
+            <input type="radio" name="times_star1" class="mb-4" />⭐⭐⭐⭐
+            <br />
+            <input type="submit" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="img-fluid text-center my-4">
+      <a href="https://www.facebook.com/davidearl.cajes.7"
+        ><img src="facebook.png" alt="facebook" width="30px" class="mx-1"
+      /></a>
+      <a href="https://twitter.com/home"
+        ><img src="twitter.png" alt="twitter" width="30px" class="mx-1"
+      /></a>
+      <a href="https://www.instagram.com"
+        ><img src="insta.png" alt="instagram" width="30px" class="mx-1"
+      /></a>
+      <a href="https://www.pinterest.ph"
+        ><img src="pinterest.png" alt="pinterest" width="30px" class="mx-1"
+      /></a>
+      <a href="https://www.linkedin.com/login"
+        ><img src="linkedin.png" alt="linkedin" width="30px" class="mx-1"
+      /></a>
+      <a href="https://www.youtube.com"
+        ><img src="youtube.png" alt="youtube" width="30px" class="mx-1"
+      /></a>
+    </div>
+  </body>
+</html>

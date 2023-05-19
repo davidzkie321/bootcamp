@@ -1,0 +1,57 @@
+#home:hover,
+#order:hover,
+#shop:hover {
+  background-color: lightgray;
+}
+
+table,
+th,
+td {
+  padding: 5px 0 5px 10px;
+  border-left: solid gray 0.1px;
+  border-right: solid gray 0.1px;
+  border-top: solid gray 0.1px;
+}
+
+#i_in_p {
+  background-color: rgb(255, 200, 99);
+}
+
+.meals_drinks {
+  background-color: rgb(255, 229, 182);
+}
+
+#all_items {
+  background-color: rgb(250, 238, 216);
+}
+
+.meals,
+.drinks {
+  text-align: center;
+}
+
+#burger:hover,
+#fried_chicken:hover,
+#spaghetti:hover,
+#pizza:hover,
+#coke:hover,
+#sprite:hover,
+#sarsi:hover,
+#extra_rice:hover,
+#condiments:hover {
+  background-color: orange;
+}
+
+#survey_sect {
+  background-color: rgb(0, 0, 0);
+}
+
+#form {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+#footer {
+  background-color: white;
+}

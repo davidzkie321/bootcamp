@@ -1,0 +1,5 @@
+Pinging facebook.com [157.240.199.35] with 32 bytes of data:
+Reply from 157.240.199.35: bytes=32 time=60ms TTL=1
+Reply from 157.240.199.35: bytes=32 time=59ms TTL=1
+Reply from 157.240.199.35: bytes=32 time=325ms TTL=1
+Reply from 157.240.199.35: bytes=32 time=49ms TTL=1

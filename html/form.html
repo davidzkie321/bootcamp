@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="first_name">First name:</label>
+      <input
+        type="text"
+        id="first_name"
+        name="first_name"
+        placeholder="ex. Juan"
+      />
+      <label for="last_name">Last name:</label>
+      <input
+        type="text"
+        id="last_name"
+        name="last_name"
+        placeholder="ex. de la Cruz"
+      />
+      <label for="province">Province</label>
+      <select name="province" id="province">
+        <option>Please select one</option>
+        <option value="Benguet">Benguet</option>
+        <option value="Metro Manila">Metro Manila</option>
+        <option value="Capiz" selected>Capiz</option>
+        <option value="Zamboanga del Sur">Zamboanga del Sur</option>
+      </select>
+      <label for="password">Password:</label>
+      <p>at least 8 characters, must include capital letter</p>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        style="width: 300px"
+      />
+      <label for="con_password">Confirm password:</label>
+      <input
+        type="password"
+        id="con_password"
+        name="con_password"
+        style="width: 300px"
+      />
+      <label for="profile_pic">Upload profile pic</label>
+      <input type="file" name="prof_pic" accept="image/*" />
+      <label for="comments">Comments and suggestions:</label>
+      <textarea
+        name="comments"
+        id="comments"
+        cols="30"
+        rows="10"
+        placeholder="Help us improve our sevices by providing us with suggestions!"
+        style="width: 400px"
+      ></textarea>
+      <h2>Senators</h2>
+      <input type="checkbox" name="" />
+      <h2>Presidents</h2>
+      <input
+        type="radio"
+        name="presidents"
+        value="bong_marcos"
+        checked="true"
+      />
+      Bong Marcos
+      <br />
+      <input type="radio" name="presidents" value="isko_moreno" /> Isko Moreno
+      <br />
+      <input type="submit" value="Submit Vote" />
+    </form>
+  </body>
+</html>

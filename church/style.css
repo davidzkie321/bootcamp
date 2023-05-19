@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  font-family: Tahoma;
+  background-image: url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+  background-attachment: fixed;
+}
+
+ul {
+  border: 0px;
+  background-color: rgb(70, 130, 180);
+  color: white;
+  padding: 6px 0 6px 0;
+}
+
+li:hover {
+  color: rgb(0, 0, 139);
+}
+
+h1 {
+  color: rgb(70, 130, 180);
+}
+
+#free_hl {
+  color: rgb(70, 130, 180);
+}
+
+.middle {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.middle_ii {
+  margin-left: 10px;
+}
+
+.savehl {
+  color: blue;
+}
+
+.savehl:visited {
+  color: orange;
+}
+
+.savehl:hover {
+  color: magenta;
+}
+
+.savehl:active {
+  color: lime;
+}
+
+.upbottom {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 75px;
+}
+
+.upbottom_ii {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  float: left;
+}
+
+.upbottom_iii {
+  text-align: center;
+  margin: 30px 125px 30px 125px;
+}
+
+table {
+  list-style-position: inside;
+}
+
+table,
+tr,
+td {
+  border: 1px dotted black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:hover {
+  color: orange;
+}
+
+.footer {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer {
+  font-size: 75%;
+  color: rgb(160, 160, 160);
+  margin-top: 100px;
+}
+
+.footer_ii {
+  color: rgb(160, 160, 160);
+}
+
+div.gallery {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.gall {
+  margin-left: 15px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+}

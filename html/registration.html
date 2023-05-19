@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/d/d4/ISCP_Logo.png?fbclid=IwAR39uxne4X1ikNFQxgNrKkhVNk1wTIb8lvN7GLZOzMgSjtOsxdoymgfgTLI"
+      alt="ISCP Logo"
+      width="200px"
+    />
+    <br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h2>Basic information</h2>
+    <form>
+      <label for="first_name">First name:</label>
+      <input
+        type="text"
+        name="first_name"
+        id="first_name"
+        placeholder="ex. David"
+      />
+      <br />
+      <label for="last_name">Last name: </label
+      ><input
+        type="text"
+        name="last_name"
+        id="last_name"
+        placeholder="ex. Cajes"
+      />
+      <br />
+      <label for="place_of_birth">Place of birth:</label>
+      <input
+        type="text"
+        name="place_of_birth"
+        id="place_of_birth"
+        placeholder="ex. Carcar Hospital"
+      />
+      <br />
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" name="birthdate" id="birthdate" /> <br />
+      <label for="civil_status">Civil status:</label>
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Single"
+      />Single
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Married"
+      />Married
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Widowed"
+      />Widowed
+      <input
+        type="radio"
+        name="civil_status"
+        id="civil_status"
+        value="Separated"
+      />Separated <br />
+      <label for="Gender">Gender:</label>
+      <input type="radio" name="gender" id="gender" value="Male" /> Male
+      <input type="radio" name="gender" id="gender" value="Female" /> Female
+      <input type="radio" name="gender" id="gender" value="Other" /> Other
+      <br />
+      <label for="mother">Mother's maiden name:</label>
+      <input type="text" name="mother" id="mother" placeholder="ex. Jane Doe" />
+      <label for="father">Father's name:</label>
+      <input
+        type="text"
+        name="father"
+        id="father"
+        placeholder="ex. John Doey"
+      />
+    </form>
+    <form>
+      <h2>Contact information</h2>
+      <label for="email">Email address:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="ex. name@gmail.com"
+      />
+      <br />
+      <label for="con_mobile">Mobile number:</label>
+      <input
+        type="tel"
+        name="con_mobile"
+        id="con_mobile"
+        placeholder="ex. +63 987 654 3210"
+      />
+      <br />
+      <label for="con_telephone">Telephone number:</label>
+      <input
+        type="tel"
+        name="con_telephone"
+        id="con_telephone"
+        placeholder="ex.1-212-121-3232"
+      />
+    </form>
+    <form>
+      <h2>Address</h2>
+      <label for="street_number">Street number:</label>
+      <input
+        type="text"
+        name="street_number"
+        id="street_number"
+        placeholder="ex. 111"
+      />
+      <br />
+      <label for="street_name">Street name:</label>
+      <input
+        type="text"
+        name="street_name"
+        id="street_name"
+        placeholder="ex. Bara road"
+      />
+      <br />
+      <label for="barangay">Barangay:</label>
+      <input
+        type="text"
+        name="barangay"
+        id="barangay"
+        placeholder="ex. Barabara"
+      />
+      <br />
+      <label for="city_town">City/Town:</label>
+      <input
+        type="text"
+        name="city_town"
+        id="city_town"
+        placeholder="ex. Berebere City"
+      />
+      <br />
+      <label for="province">Province:</label>
+      <input type="text" name="province" id="province" placeholder="ex. Cebu" />
+      <br />
+      <label for="full_address">Full address:</label><br /><textarea
+        rows="3"
+        cols="40"
+        name="full_address"
+        id="full_address"
+        placeholder="Enter full address here..."
+      ></textarea>
+    </form>
+    <form>
+      <h2>Government information</h2>
+      <label for="sss_id">SSS ID:</label>
+      <input type="file" name="sss_id" id="sss_id" accept="image/*" /> <br />
+      <label for="pag-ibig">Pag-Ibig ID:</label>
+      <input type="file" name="pag-ibig" id="pag-ibig" accept="image/*" />
+      <br />
+      <label for="phil_health">PhilHealth ID:</label>
+      <input type="file" name="phil_health" id="phil_health" accept="image/*" />
+      <br />
+      <label for="2x2">Upload 2x2 picture:</label>
+      <input type="file" name="2x2" id="2x2" accept="image/*" /> <br />
+      <label for="gov_id">Upload picture of government ID:</label>
+      <input type="file" name="gov_id" id="gov_id" accept="image/*" />
+    </form>
+    <form>
+      <h2>Account information</h2>
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="ex. user151"
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="ex. abacada"
+      />
+      <label for="con_pass">Confirm password:</label>
+      <input
+        type="password"
+        name="con_pass"
+        id="con_pass"
+        placeholder="ex. abacada"
+      />
+      <br />
+      <label for="prof_img">Upload profile image:</label>
+      <input type="file" name="prof_img" id="prof_img" />
+    </form>
+    <form>
+      <h2>Have you experienced any of the following in the last 30 days?</h2>
+      <label for="coughing">Coughing</label>
+      <input type="checkbox" name="coughing" id="coughing" /><br />
+      <label for="fever">Fever</label>
+      <input type="checkbox" name="fever" id="fever" /><br />
+      <label for="headache">Headache</label>
+      <input type="checkbox" name="headache" id="headache" /><br />
+      <label for="common_cold">Common cold</label>
+      <input type="checkbox" name="common_cold" id="common_cold" /><br />
+      <label for="body_ache">Body ache</label>
+      <input type="checkbox" name="body_ache" id="body_ache" /><br />
+      <label for="sore_throat">Sore throat</label>
+      <input type="checkbox" name="sore_throat" id="sore_throat" /><br />
+      <label for="tiredness">Tiredness</label>
+      <input type="checkbox" name="tiredness" id="tiredness" /><br />
+      <label for="loss_smell">Loss of smell</label>
+      <input type="checkbox" name="loss_smell" id="loss_smell" />
+    </form>
+    <form>
+      <h2>
+        <label for="description"
+          >Give a short description about yourself.</label
+        >
+      </h2>
+      <br />
+      <textarea
+        name="description"
+        id="description"
+        cols="50"
+        rows="10"
+        placeholder="Describe yourself here..."
+      ></textarea>
+    </form>
+  </body>
+</html>
